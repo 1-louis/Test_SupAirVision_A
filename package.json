@@ -1,0 +1,24 @@
+{
+  "name": "vite-w-electron",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "electron:start": "electron ."
+  },
+  "dependencies": {
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "electron": "^29.1.5",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.3",
+    "vue-tsc": "^2.0.7"
+  }
+}
